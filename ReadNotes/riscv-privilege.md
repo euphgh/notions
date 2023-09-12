@@ -6,7 +6,7 @@
 
 表示该特权级别的中断使能，低特权的中断使能恒关闭，高特权的中断使能恒开启
 
-### SPIE, MPIE(READ ONLY), SPP, MPP(WARL)
+### SPIE, MPIE, SPP, MPP(WARL)
 
 xPIE记录该特权级之前的中断使能，xPP记录自陷入该特权级的特权。**如果未实现特权模式x，则xPP必须仅读取0**。
 
